@@ -7,6 +7,6 @@ public class Dog extends Pet {
     }
 
     public String speak() {
-        return null;
+        return "I'm not drunk!";
     }
 }

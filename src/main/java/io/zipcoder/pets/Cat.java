@@ -6,6 +6,6 @@ public class Cat extends Pet {
     }
 
     public String speak() {
-        return null;
+        return "I don't have a mouth.";
     }
 }

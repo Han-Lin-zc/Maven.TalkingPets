@@ -6,6 +6,6 @@ public class Panda extends Pet {
     }
 
     public String speak() {
-        return null;
+        return "Meow!";
     }
 }
