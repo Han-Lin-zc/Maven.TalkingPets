@@ -9,13 +9,13 @@ public class PetTest {
 
     @Test
     public void dogInheritanceTest() {
-        Pet p = new Dog();
+        Pet p = new Dog("Brian Griffin");
         Assert.assertTrue(p instanceof Pet);
     }
 
     @Test
     public void catInheritanceTest() {
-        Pet p = new Cat();
+        Pet p = new Cat("Hello Kitty");
         Assert.assertTrue(p instanceof Pet);
     }
 
