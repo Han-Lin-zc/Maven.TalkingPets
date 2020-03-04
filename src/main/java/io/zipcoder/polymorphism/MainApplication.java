@@ -11,9 +11,8 @@ public class MainApplication {
     public static void main(String[] args) {
         AnimalFarm animalFarm = new AnimalFarm();
         animalFarm.numberOfPets();
-        animalFarm.typeOfPet();
-        animalFarm.nameOfPet();
-
+        animalFarm.placePetsInFarm();
+        animalFarm.printPets();
     }
 
 }
